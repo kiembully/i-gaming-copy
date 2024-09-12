@@ -1,0 +1,17 @@
+.containerTab {
+  @apply flex -space-x-5 border-b-4 border-white rounded-t-xl overflow-x-auto;
+
+  > button {
+    @apply text-lg sm:text-xl md:text-4xl font-semibold leading-tight italic;
+
+    &:first-child {
+      @apply z-40;
+    }
+    &:nth-child(2) {
+      @apply z-30 pl-10;
+    }
+    &:last-child {
+      @apply z-20 pl-10;
+    }
+  }
+}
